@@ -2,14 +2,14 @@ export const BaseInfo = {
   name: "wign",
   position: "Full Stack Web Developer",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit porro numquam ad, vero consequuntur aperiam cumque voluptatum pariatur veniam? Qui facilis est ipsam odio cum!",
+    "A student and developer enthusiastic about creating web applications using React, Express, and Next.js. I am passionate about learning new technologies and building innovative solutions.",
   profilePic: "/profile.png",
 };
 
 export const aboutInfo = {
   title: "Crafting Web Application with Passion and Precision",
   description:
-    "At webdev warriors, we’re a dedicated team of designers and developers committed to delivering tailored web solutions. With a blend of creativity and technical expertise, we help businesses elevate their online presence and achieve their goals",
+    "I have a strong interest in various technologies, especially React and Next.js, and I believe every project should offer an excellent user experience. Currently, I'm actively involved in UI/UX projects and full-stack development to hone my skills.",
   client: "50+",
   experience: "1+",
   project: "40+",
