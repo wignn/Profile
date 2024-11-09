@@ -1,8 +1,9 @@
-import type { Metadata } from "next";;
+import type { Metadata } from "next";
 import "./globals.css";
-import {Sora } from "next/font/google";
+import { Sora } from "next/font/google";
 import ResponsiveNavbar from "../components/Home/ResponsiveNavbar";
 import Footer from "@/components/Footer/Footer";
+import { Analytics } from "@vercel/analytics/react";
 
 const font = Sora({
   weight: ["100", "200", "300", "400", "500", "600", "700", "800"],
@@ -21,12 +22,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${font.className}`}
-      >
+      <body className={`${font.className}`}>
         <ResponsiveNavbar />
         {children}
-        <Footer/>
+        <Analytics />
+        <Footer />
       </body>
     </html>
   );
