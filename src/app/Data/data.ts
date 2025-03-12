@@ -71,48 +71,37 @@ export const servicesData = [
   },
 ];
 
+
 export const projectData = [
   {
     id: 1,
-    image: "/project1.png",
-    url: "https://frontend-for-crud.vercel.app",
+    title: "Wign Novel",
+    description: "A responsive CRUD application built with modern frontend technologies.",
+    image: "/mew.png",
+    url: "https://explore-ecru-seven.vercel.app/",
+    github: "https://github.com/wignn/explore-frontend",
+    tags: ["React", "Next.js", "Tailwind CSS", "cloudfare", "Vercel", "API"],
   },
   {
     id: 2,
-    image: "/project2.png",
-    url: "https://github.com/wignn/api-with-nest/blob/main/docs/book.md#create-book",
+    title: "NestJS API",
+    description: "RESTful API built with NestJS framework for Wign Novel.",
+    image: "/apis.png",
+    url: "https://low-merilyn-wignn-9201e186.koyeb.app/",
+    github: "https://github.com/wignn/explore-api",
+    tags: ["NestJS", "TypeScript", "REST API", "PostgreSQL", "Prisma"],
   },
   {
     id: 3,
+    title: "Electron Desktop App",
+    description: "Cross-platform desktop application built with Electron.",
     image: "/project3.png",
     url: "https://github.com/wignn/app-with-elektron/tree/main/dist",
+    github: "https://github.com/wignn/app-with-elektron",
+    tags: ["Electron", "JavaScript", "Desktop"],
   },
-  // {
-  //   id: 4,
-  //   image: "/images/p4.png",
-  //   url: "https://elearning-yt.vercel.app/",
-  // },
-  // {
-  //   id: 5,
-  //   image: "/images/p5.png",
-  //   url: "https://invest-peach.vercel.app/",
-  // },
-  // {
-  //   id: 6,
-  //   image: "/images/p6.png",
-  //   url: "https://job-chi-ruby.vercel.app/",
-  // },
-  // {
-  //   id: 7,
-  //   image: "/images/p7.png",
-  //   url: "https://wdw-ecom.vercel.app/",
-  // },
-  // {
-  //   id: 8,
-  //   image: "/images/p8.png",
-  //   url: "https://webhost-ten.vercel.app/",
-  // },
-];
+]
+
 
 export const skillsData = [
   {
@@ -125,25 +114,25 @@ export const skillsData = [
     id: 2,
     title: "CSS",
     image: "/images/css.svg",
-    percent: "97%",
+    percent: "90%",
   },
   {
     id: 3,
     title: "JavaScript",
     image: "/images/js.svg",
-    percent: "77%",
+    percent: "80%",
   },
   {
     id: 4,
     title: "TypeScript",
     image: "/images/ts.svg",
-    percent: "67%",
+    percent: "70%",
   },
   {
     id: 5,
     title: "HTML",
     image: "/images/html.svg",
-    percent: "67%",
+    percent: "70%",
   },
   {
     id: 6,
@@ -204,7 +193,7 @@ export const skillsData = [
     id: 15,
     title: "Go",
     image: "/brand-golang.svg",
-    percent: "40%",
+    percent: "60%",
   },
 ];
 
