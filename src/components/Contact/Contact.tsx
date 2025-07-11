@@ -33,7 +33,7 @@ const Contact = () => {
 
         <div className="flex justify-center mt-8 mb-16">
           <div className="relative bg-white text-black px-8 py-4 font-black text-xl tracking-wider transform -rotate-1 shadow-[6px_6px_0px_0px_rgba(255,255,255,0.3)]">
-            LET'S CONNECT!
+            LET&apos;S CONNECT!
             <Star className="absolute -top-3 -right-3 w-6 h-6 text-white bg-black rounded-full p-1" />
           </div>
         </div>

@@ -1,4 +1,4 @@
-import { p } from "framer-motion/client";
+
 
 export const BaseInfo = {
   name: "wign",

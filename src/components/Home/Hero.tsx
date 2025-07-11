@@ -61,7 +61,7 @@ const Hero = () => {
                 </span>
                 <div className="absolute inset-0 bg-white transform scale-0 group-hover:scale-100 transition-transform duration-200 origin-center"></div>
                 <span className="absolute inset-0 flex items-center justify-center text-black font-black opacity-0 group-hover:opacity-100 transition-opacity duration-200 text-sm sm:text-lg">
-                  LET'S GO!
+                  LET&apos;S GO!
                 </span>
               </button>
             </div>
