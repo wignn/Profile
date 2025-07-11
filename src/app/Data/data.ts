@@ -1,3 +1,5 @@
+import { p } from "framer-motion/client";
+
 export const BaseInfo = {
   name: "wign",
   position: "Full Stack Web Developer",
@@ -71,14 +73,14 @@ export const servicesData = [
   },
 ];
 
-
 export const projectData = [
   {
     id: 1,
     title: "Wign Novel",
-    description: "A responsive CRUD application built with modern frontend technologies.",
+    description:
+      "A responsive CRUD application built with modern frontend technologies.",
     image: "/mew.png",
-    url: "https://explore-ecru-seven.vercel.app/",
+    url: "https://wign.cloud",
     github: "https://github.com/wignn/explore-frontend",
     tags: ["React", "Next.js", "Tailwind CSS", "cloudfare", "Vercel", "API"],
   },
@@ -93,15 +95,14 @@ export const projectData = [
   },
   {
     id: 3,
-    title: "Electron Desktop App",
-    description: "Cross-platform desktop application built with Electron.",
-    image: "/project3.png",
-    url: "https://github.com/wignn/app-with-elektron/tree/main/dist",
-    github: "https://github.com/wignn/app-with-elektron",
-    tags: ["Electron", "JavaScript", "Desktop"],
-  },
-]
-
+    title: "cloud storage",
+    description: "A cloud storage application built with Next.js and appwrite.",
+    image: "/storage.png",
+    url: "https://storage-zeta-amber.vercel.app/",
+    github: "https://github.com/wignn/Storage",
+    tags: ["Next.js", "Appwrite", "Cloud Storage"],
+  }
+];
 
 export const skillsData = [
   {
@@ -164,7 +165,7 @@ export const skillsData = [
     image: "/express-original.svg",
     percent: "70%",
   },
-  
+
   {
     id: 11,
     title: "Next JS",
@@ -195,8 +196,25 @@ export const skillsData = [
     image: "/brand-golang.svg",
     percent: "60%",
   },
+  {
+    id: 16,
+    title: "GraphQL",
+    image: "/GraphQL.svg",
+    percent: "50%",
+  },
+  {
+    id: 18,
+    title: "gRPC",
+    image: "/grpc.svg",
+    percent: "50%",
+  },
+  {
+    id: 17,
+    title: "gin",
+    image: "/grpcl.png",
+    percent: "50%",
+  },
 ];
-
 
 // export const blogs = [
 //   {

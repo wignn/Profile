@@ -8,12 +8,13 @@ function ResponsiveNavbar() {
 
   const handleShowNav = () => setShowNav(true);
   const handleCloseNav = () => setShowNav(false);
+
   return (
     <div>
       <Navbar openNav={handleShowNav} />
-      <MobileNavbar showNav={showNav} closeNav={handleCloseNav}/>
+      <div className="h-[9vh]" />
+        <MobileNavbar showNav={showNav} closeNav={handleCloseNav} />
     </div>
   );
 }
-
 export default ResponsiveNavbar;
