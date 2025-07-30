@@ -1,6 +1,3 @@
-import { title } from "process";
-
-
 export const BaseInfo = {
   name: "wign",
   position: "Full Stack Web Developer",
