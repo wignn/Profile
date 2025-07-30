@@ -1,3 +1,4 @@
+import { title } from "process";
 
 
 export const BaseInfo = {
@@ -101,6 +102,15 @@ export const projectData = [
     url: "https://storage-zeta-amber.vercel.app/",
     github: "https://github.com/wignn/Storage",
     tags: ["Next.js", "Appwrite", "Cloud Storage"],
+  },
+  {
+    id: 4,
+    title:"media downloader tool",
+    description: "A tool to download media from fb, youtube, instagram and conver media into mp3.",
+    image: "/media-dw.png",
+    url: "https://github.com/wignn/video-downloader/releases",
+    github: "https://github.com/wignn/video-downloader",
+    tags: ["Electron", "JavaScript", "Media Downloader", "Cross-Platform", "ffmpeg", "ytdl-core"],
   }
 ];
 
